@@ -1,0 +1,29 @@
+package com.myshop.myshop_backend.service;
+
+import com.myshop.myshop_backend.User;
+import com.myshop.myshop_backend.repository.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class UserService {
+    @Autowired
+    private UserRepository userRepository;
+
+    public User registerUser(User user){
+        return userRepository.save(user);
+    }
+
+    public String loginUser(String email, String password){
+        User existing = userRepository.findByEmail(email);
+        if (existing == null){
+            return "User not found";
+        }
+        else if (existing.getPassword().equals(password)){
+            return "Login successful";
+        }
+        else {
+            return "Wrong password";
+        }
+    }
+}
