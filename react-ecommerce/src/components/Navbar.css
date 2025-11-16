@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 30px;
+    background-color: #2c3e50;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .store-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-buttons button, .nav-buttons a button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  .login-btn {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .login-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .logout-btn {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .logout-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  .cart-btn {
+    background-color: #2ecc71;
+    color: white;
+  }
+  
+  .cart-btn:hover {
+    background-color: #27ae60;
+  }
+  

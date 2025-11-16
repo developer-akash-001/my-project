@@ -1,0 +1,41 @@
+.about-container {
+    width: 90%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    color: #2c3e50;
+  }
+  
+  .about-container h1 {
+    text-align: center;
+    color: #e67e22;
+    margin-bottom: 20px;
+  }
+  
+  .about-container h2 {
+    color: #3498db;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .about-container p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+  }
+  
+  .about-container ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  .about-container ul li {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 8px;
+  }
+  

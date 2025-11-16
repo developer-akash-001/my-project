@@ -1,0 +1,43 @@
+.cart-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .cart-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .cart-item h4 {
+    margin: 0;
+  }
+  
+  .cart-empty {
+    text-align: center;
+    color: gray;
+    margin-top: 30px;
+  }
+
+  .footer {
+  background-color: #f8f9fa;
+  padding: 15px 0;
+  text-align: center;
+  color: #555;
+  margin-top: 40px;
+  border-top: 1px solid #ddd;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+  
